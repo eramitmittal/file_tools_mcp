@@ -14,6 +14,14 @@
   "keywords": [],
   "author": "Amit Mittal",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/eramitmittal/file_tools_mcp"
+  },
+  "bugs": {
+    "url": "https://github.com/eramitmittal/file_tools_mcp/issues"
+  },
+  "homepage": "https://github.com/eramitmittal/file_tools_mcp#readme",
   "description": "LLM Friendly file editing MCP tools capable of safely searching text in LLM Friendly way by providing proper guidance (including fuzzy search suggestions) back to it so that it can re-try with correct parameters. Has built in validations to ensure only intended changes are permitted.",
   "devDependencies": {
     "@jest/globals": "^30.1.2",
