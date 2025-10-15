@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "main": "dist/file_tools_mcp.js",
   "type": "module",
-  "bin": {"file_tools_mcp": "./dist/file_tools_mcp.js"},
+  "bin": {
+    "file_tools_mcp": "dist/file_tools_mcp.js"
+  },
   "scripts": {
     "build": "npx tsc",
     "test": "npx jest",
