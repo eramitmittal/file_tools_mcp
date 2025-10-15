@@ -1,6 +1,6 @@
 {
   "name": "file_tools_mcp",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "dist/file_tools_mcp.js",
   "type": "module",
   "bin": {
@@ -34,3 +34,4 @@
     "zod": "^3.25.76"
   }
 }
+
