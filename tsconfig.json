@@ -7,7 +7,7 @@
     "target": "esnext",
     "lib": ["esnext"],
     "types": ["node", "jest"],
-    "sourceMap": true,
+    "sourceMap": false,
     "declaration": false,
     "declarationMap": false,
     "noUncheckedIndexedAccess": true,
@@ -17,6 +17,8 @@
     "noUncheckedSideEffectImports": true,
     "moduleDetection": "force",
     "skipLibCheck": true,
-    "forceConsistentCasingInFileNames": true
-  }
+    "forceConsistentCasingInFileNames": true,
+    "esModuleInterop": false
+  },
+  "include": ["file_tools_mcp.ts"]
 }

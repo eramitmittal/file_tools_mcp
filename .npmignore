@@ -1,0 +1,6 @@
+*.github
+*.git
+*.ts
+*.js
+*.txt
+*.json
