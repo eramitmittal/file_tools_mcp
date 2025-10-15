@@ -1,6 +1,6 @@
 {
   "name": "file_tools_mcp",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "main": "dist/file_tools_mcp.js",
   "type": "module",
   "bin": {
@@ -23,15 +23,17 @@
   },
   "homepage": "https://github.com/eramitmittal/file_tools_mcp#readme",
   "description": "LLM Friendly file editing MCP tools capable of safely searching text in LLM Friendly way by providing proper guidance (including fuzzy search suggestions) back to it so that it can re-try with correct parameters. Has built in validations to ensure only intended changes are permitted.",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "1.17.3",
+    "zod": "^3.25.76"
+  },
   "devDependencies": {
     "@jest/globals": "^30.1.2",
-    "@modelcontextprotocol/sdk": "1.17.3",
     "@types/jest": "^30.0.0",
     "@types/node": "^24.4.0",
     "jest": "^30.1.3",
     "ts-jest": "^29.4.1",
-    "typescript": "^5.9.2",
-    "zod": "^3.25.76"
+    "typescript": "^5.9.2"
   }
 }
 
