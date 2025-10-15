@@ -1,0 +1,26 @@
+{
+  "name": "file_tools_mcp",
+  "version": "1.0.0",
+  "main": "dist/file_tools_mcp.js",
+  "type": "module",
+  "bin": {"file_tools_mcp": "./dist/file_tools_mcp.js"},
+  "scripts": {
+    "build": "npx tsc",
+    "test": "npx jest",
+    "start": "node dist/file_tools_mcp.js"
+  },
+  "keywords": [],
+  "author": "Amit Mittal",
+  "license": "MIT",
+  "description": "LLM Friendly file editing MCP tools capable of safely searching text in LLM Friendly way by providing proper guidance (including fuzzy search suggestions) back to it so that it can re-try with correct parameters. Has built in validations to ensure only intended changes are permitted.",
+  "devDependencies": {
+    "@jest/globals": "^30.1.2",
+    "@modelcontextprotocol/sdk": "1.17.3",
+    "@types/jest": "^30.0.0",
+    "@types/node": "^24.4.0",
+    "jest": "^30.1.3",
+    "ts-jest": "^29.4.1",
+    "typescript": "^5.9.2",
+    "zod": "^3.25.76"
+  }
+}

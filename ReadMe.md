@@ -1,0 +1,2 @@
+LLM Friendly file editing MCP tools capable of safely searching text in LLM Friendly way by providing proper guidance (including fuzzy search suggestions) back to it so that it can re-try with correct parameters. 
+Has built in validations to ensure only intended changes are permitted.
